@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "author": "John Smith",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati quia quaerat asperiores\neaque commodi beatae, labore vel maiores consequuntur sunt. Obcaecati, accusantium omnis dolorum fugit magnam animi\nplaceat iusto!",
+    "imageUrl": "/image-787878.png"
+  },
+  {
+    "author": "Walter White33",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati quia quaerat asperiores\neaque commodi beatae, labore vel maiores consequuntur sunt. Obcaecati, accusantium omnis dolorum fugit magnam animi\nplaceat iusto!",
+    "imageUrl": "/image-53.png",
+    "id": 6
+  },
+  {
+    "author": "Walter White",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati quia quaerat asperiores\neaque commodi beatae, labore vel maiores consequuntur sunt. Obcaecati, accusantium omnis dolorum fugit magnam animi\nplaceat iusto!",
+    "imageUrl": "/image-2.png",
+    "id": 7
+  },
+  {
+    "author": "Mr.Anderson",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati quia quaerat asperiores\neaque commodi beatae, labore vel maiores consequuntur sunt. Obcaecati, accusantium omnis dolorum fugit magnam animi\nplaceat iusto!",
+    "imageUrl": "/image-29.jpg",
+    "id": 8
+  },
+  {
+    "author": "Mr.Anderson5",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati quia quaerat asperiores\neaque commodi beatae, labore vel maiores consequuntur sunt. Obcaecati, accusantium omnis dolorum fugit magnam animi\nplaceat iusto!",
+    "imageUrl": "/image-29.jpg",
+    "id": 9
+  }
+]
