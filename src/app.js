@@ -1,12 +1,18 @@
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
-const fileLogger = require('./api/middleware/fileLogger');
-const globaErrHandler = require('./api/middleware/errorHandler');
+const mongoose = require('mongoose');
 
+const queryLogger = require('./api/middleware/queryLogger');
+const globaErrHandler = require('./api/middleware/errorHandler');
 const newsRoutes = require('./api/routes/news');
 
 const app = express();
+
+mongoose.connect(
+  `mongodb+srv://V1ctoR:${process.env.MONGO_ATLAS_PW}@frontcamp-news-oslhg.mongodb.net/test?retryWrites=true&w=majority`,
+  { useNewUrlParser: true, useUnifiedTopology: true },
+);
 
 app.set('view engine', 'ejs'); // our template engine
 app.set('views', 'src/api/views'); // where our views are stored
@@ -18,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'api/public')));
 app.use(morgan('dev'));
 
 // Our custom filelogger.
-app.use(fileLogger);
+app.use(queryLogger);
 
 // We can use req.body... & etc.
 app.use(express.urlencoded({ extended: true }));

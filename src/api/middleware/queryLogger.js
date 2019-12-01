@@ -4,7 +4,7 @@ const { promisify } = require('util');
 const url = require('url');
 
 const writeFile = promisify(fs.appendFile);
-const fileUrl = path.join(__dirname, '../../assets/data/log.txt');
+const fileUrl = path.join(__dirname, '../../assets/data/queryLog.txt');
 
 const getFullUrl = (request) => url.format({
   protocol: request.protocol,
@@ -12,11 +12,13 @@ const getFullUrl = (request) => url.format({
   pathname: request.originalUrl,
 });
 
-const fileLogger = (req, res, next) => {
+const queryLogger = (req, res, next) => {
   const date = new Date();
   const logStr = `\n${date.toLocaleTimeString()} ${date.toLocaleDateString()}: req.method => ${req.method} / req.url => ${getFullUrl(req)}\n`;
-  writeFile(fileUrl, logStr).then(() => next())
+
+  writeFile(fileUrl, logStr)
+    .then(() => next())
     .catch((err) => console.log(`Write file error: ${err}`));
 };
 
-module.exports = fileLogger;
+module.exports = queryLogger;
