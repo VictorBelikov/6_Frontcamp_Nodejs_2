@@ -3,16 +3,14 @@ const newsController = require('../controllers/news');
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  // .catch((err) => res.status(500).json({ error: err }));
-});
+router.get('/', newsController.getAllNews);
 
-router.get('/:newsId', (req, res) => {});
+router.get('/:newsId', newsController.getSpecificNews);
 
-router.post('/', (req, res) => {});
+router.post('/', newsController.createNewNews);
 
-router.patch('/:newsId', (req, res) => {});
+router.patch('/:newsId', newsController.modifySpecificNews);
 
-router.delete('/:newsId', (req, res) => {});
+router.delete('/:newsId', newsController.deleteSpecificNews);
 
 module.exports = router;

@@ -10,7 +10,7 @@ const newsRoutes = require('./api/routes/news');
 const app = express();
 
 mongoose.connect(
-  `mongodb+srv://V1ctoR:${process.env.MONGO_ATLAS_PW}@frontcamp-news-oslhg.mongodb.net/test?retryWrites=true&w=majority`,
+  `mongodb+srv://V1ctoR:${process.env.MONGO_ATLAS_PW}@frontcamp-news-oslhg.mongodb.net/${process.env.MONGO_ATLAS_DB_NAME}?retryWrites=true&w=majority`,
   { useNewUrlParser: true, useUnifiedTopology: true },
 );
 

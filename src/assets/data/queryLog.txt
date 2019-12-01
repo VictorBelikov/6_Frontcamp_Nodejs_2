@@ -154,3 +154,117 @@
 6:06:39 2019-11-26: req.method => GET / req.url => http://localhost:3000/
 
 6:08:23 2019-11-26: req.method => GET / req.url => http://localhost:3000/
+
+14:52:34 2019-12-1: req.method => POST / req.url => http://localhost:3000/
+
+14:53:48 2019-12-1: req.method => POST / req.url => http://localhost:3000/
+
+14:55:09 2019-12-1: req.method => POST / req.url => http://localhost:3000/news
+
+15:03:47 2019-12-1: req.method => POST / req.url => http://localhost:3000/news
+
+15:09:15 2019-12-1: req.method => POST / req.url => http://localhost:3000/news
+
+15:12:10 2019-12-1: req.method => POST / req.url => http://localhost:3000/news
+
+15:15:56 2019-12-1: req.method => POST / req.url => http://localhost:3000/news
+
+15:20:41 2019-12-1: req.method => GET / req.url => http://localhost:3000/news
+
+15:22:57 2019-12-1: req.method => GET / req.url => http://localhost:3000/news
+
+15:27:46 2019-12-1: req.method => GET / req.url => http://localhost:3000/news
+
+15:28:53 2019-12-1: req.method => GET / req.url => http://localhost:3000/news
+
+15:34:31 2019-12-1: req.method => GET / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64ca
+
+15:34:53 2019-12-1: req.method => GET / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64ca
+
+15:34:59 2019-12-1: req.method => GET / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64ca1
+
+15:35:06 2019-12-1: req.method => GET / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64c1
+
+15:35:32 2019-12-1: req.method => GET / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64c1
+
+15:35:41 2019-12-1: req.method => GET / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64ca
+
+15:56:50 2019-12-1: req.method => GET / req.url => http://localhost:3000/news/
+
+16:02:35 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:03:29 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:03:57 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:04:50 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:05:50 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:06:40 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:07:34 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:07:47 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:08:34 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:10:02 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:21:48 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca89302
+
+16:21:56 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8932
+
+16:23:28 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8932
+
+16:24:05 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:24:19 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8932
+
+16:24:25 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca89320
+
+16:24:30 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8932
+
+16:25:03 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8932
+
+16:25:33 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8932
+
+16:25:37 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:33:39 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:34:30 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:34:41 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:35:48 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:42:02 2019-12-1: req.method => PATCH / req.url => http://localhost:3000/news/5de3ac23ccb83843d0ca8930
+
+16:43:09 2019-12-1: req.method => DELETE / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64ca
+
+16:44:03 2019-12-1: req.method => DELETE / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64ca
+
+16:44:48 2019-12-1: req.method => DELETE / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64ca
+
+16:47:12 2019-12-1: req.method => DELETE / req.url => http://localhost:3000/news/5de3aefd3d1c9b4da4de64ca
+
+16:48:09 2019-12-1: req.method => POST / req.url => http://localhost:3000/news/
+
+16:48:23 2019-12-1: req.method => GET / req.url => http://localhost:3000/news/
+
+16:48:33 2019-12-1: req.method => DELETE / req.url => http://localhost:3000/news/5de3c499322aef08c41d45a2
+
+16:48:44 2019-12-1: req.method => DELETE / req.url => http://localhost:3000/news/5de3c499322aef08c41d45a2
+
+16:52:03 2019-12-1: req.method => POST / req.url => http://localhost:3000/news/
+
+16:53:27 2019-12-1: req.method => POST / req.url => http://localhost:3000/news/
+
+16:53:37 2019-12-1: req.method => POST / req.url => http://localhost:3000/news/
+
+16:53:38 2019-12-1: req.method => POST / req.url => http://localhost:3000/news/
+
+16:54:07 2019-12-1: req.method => POST / req.url => http://localhost:3000/news/
+
+16:54:16 2019-12-1: req.method => POST / req.url => http://localhost:3000/news/

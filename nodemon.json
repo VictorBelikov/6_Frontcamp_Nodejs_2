@@ -1,5 +1,6 @@
 {
   "env": {
+    "MONGO_ATLAS_DB_NAME": "newsArticles",
     "MONGO_ATLAS_PW": "newsdb_pass"
   }
 }
