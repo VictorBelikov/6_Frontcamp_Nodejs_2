@@ -5,42 +5,27 @@ const User = require('../models/user');
 
 // post: '/signup'
 exports.createUser = (req, res) => {
-  User.find({ email: req.body.email })
-    .then((users) => {
-      if (users.length >= 1) {
-        return res.status(409).json({ message: 'User exists!' });
-      }
+  User.find({ email: req.body.email }).then((users) => {
+    if (users.length >= 1) {
+      return res.status(409).json({ message: 'User exists!' });
+    }
 
-      bcrypt.hash(req.body.password, 10, (err, hash) => {
-        if (err) return res.status(500).json({ error: err });
+    bcrypt.hash(req.body.password, 10, (err, hash) => {
+      if (err) return res.status(500).json({ error: err });
 
-        const newUser = new User({
-          _id: new mongoose.Types.ObjectId(),
-          name: req.body.name,
-          email: req.body.email,
-          password: hash,
-        });
-
-        newUser.save()
-          .then((result) => res.status(201).json({ message: 'User created', createdUser: result }))
-          .catch((e) => res.status(500).json({ error: e }));
+      const newUser = new User({
+        _id: new mongoose.Types.ObjectId(),
+        name: req.body.name,
+        email: req.body.email,
+        password: hash,
       });
+
+      newUser
+        .save()
+        .then((result) => res.status(201).json({ message: 'User created', createdUser: result }))
+        .catch((e) => res.status(500).json({ error: e }));
     });
-};
-
-
-// post: '/login'
-exports.loginUser = (req, res) => {
-  User.find({ email: req.body.email })
-    .then((users) => {
-      if (users.length === 0) return res.status(401).json({ message: 'User not found in DB' });
-
-      bcrypt.compare(req.body.password, users[0].password, (err, isMatch) => {
-        if (err) return res.status(500).json({ error: err });
-        return res.status(201).json({ user: isMatch });
-      });
-    })
-    .catch((e) => res.status(500).json({ error: e }));
+  });
 };
 
 // delete: '/userId'
@@ -52,4 +37,37 @@ exports.deleteUser = (req, res) => {
         : res.status(404).json({ message: 'Sorry, specific user not found in DB' });
     })
     .catch((err) => res.status(500).json({ error: err }));
+};
+
+// get: login
+exports.loginUserGet = (req, res) => res.render('login', {
+  pageTitle: 'Login',
+  path: '/login',
+});
+
+// post: '/login'
+exports.loginUserPost = (req, res, next) => {
+  passport.authenticate('local', (err, user) => {
+    if (err) return next(err);
+    if (!user) return res.redirect('/user/login');
+
+    req.logIn(user, (error) => {
+      if (error) return next(error);
+      return res.redirect('/user/authSuccess');
+    });
+  })(req, res, next);
+};
+
+// get: '/logout'
+exports.logout = (req, res) => {
+  req.logout();
+  res.redirect('/news');
+};
+
+exports.authSuccess = (req, res) => {
+  res.render('authSuccess', {
+    pageTitle: 'Auth Success',
+    message: 'Authentication successful !',
+    path: '/authSuccess',
+  });
 };
