@@ -2,10 +2,12 @@ const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
 const mongoose = require('mongoose');
+const session = require('express-session');
 
 const queryLogger = require('./api/middleware/queryLogger');
 const globaErrHandler = require('./api/middleware/errorHandler');
 const newsRoutes = require('./api/routes/news');
+const usersRoutes = require('./api/routes/users');
 
 const app = express();
 
@@ -27,10 +29,14 @@ app.use(morgan('dev'));
 app.use(queryLogger);
 
 // We can use req.body... & etc.
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+// Session params
+app.use(session({ secret: 'SESSION_SECRET', resave: false, saveUninitialized: true }));
+
 app.use('/news', newsRoutes);
+app.use('/user', usersRoutes);
 
 // Will reach this line only if no one of the routes is processed.
 app.use((req, res, next) => {

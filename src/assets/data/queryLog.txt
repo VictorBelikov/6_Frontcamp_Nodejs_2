@@ -268,3 +268,51 @@
 16:54:07 2019-12-1: req.method => POST / req.url => http://localhost:3000/news/
 
 16:54:16 2019-12-1: req.method => POST / req.url => http://localhost:3000/news/
+
+4:52:42 2019-12-2: req.method => GET / req.url => http://localhost:3000/news/
+
+5:08:21 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:08:48 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/signup
+
+5:08:59 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/signup
+
+5:09:21 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/signup
+
+5:11:17 2019-12-2: req.method => DELETE / req.url => http://localhost:3000/user/5de47251002f9d4f308ba247
+
+5:11:40 2019-12-2: req.method => DELETE / req.url => http://localhost:3000/user/5de47251002f9d4f308ba247
+
+5:11:56 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/signup
+
+5:12:03 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/signup
+
+5:53:11 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/
+
+5:53:33 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:53:36 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:53:37 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:54:31 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:54:50 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:54:56 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:55:19 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:55:23 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:56:13 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:56:57 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:57:18 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:57:27 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:57:52 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+5:59:01 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
