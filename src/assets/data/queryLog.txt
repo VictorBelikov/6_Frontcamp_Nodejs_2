@@ -316,3 +316,89 @@
 5:57:52 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
 
 5:59:01 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/
+
+15:11:47 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+15:12:20 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+15:13:56 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+15:17:16 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:25:17 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:25:17 2019-12-2: req.method => GET / req.url => http://localhost:3000/dashboard
+
+16:28:44 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:28:44 2019-12-2: req.method => GET / req.url => http://localhost:3000/dashboard
+
+16:30:09 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:32:44 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:33:57 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:34:31 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:35:26 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:35:33 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:41:17 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:42:09 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+16:42:12 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+17:29:07 2019-12-2: req.method => GET / req.url => http://localhost:3000/
+
+17:29:08 2019-12-2: req.method => GET / req.url => http://localhost:3000/favicon.ico
+
+17:29:21 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:30:40 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:31:27 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:32:00 2019-12-2: req.method => GET / req.url => http://localhost:3000/
+
+17:32:08 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:32:09 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:32:16 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:34:22 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:35:44 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:35:47 2019-12-2: req.method => GET / req.url => http://localhost:3000/
+
+17:35:54 2019-12-2: req.method => GET / req.url => http://localhost:3000/news
+
+17:36:04 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:36:35 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:39:36 2019-12-2: req.method => POST / req.url => http://localhost:3000/login
+
+17:40:05 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+17:40:05 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/user/redirect
+
+17:41:19 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+17:41:19 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/user/redirect
+
+17:41:51 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+17:41:51 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirect
+
+17:43:50 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+17:43:51 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirectsuccess
+
+17:43:56 2019-12-2: req.method => POST / req.url => http://localhost:3000/user/login
+
+17:43:56 2019-12-2: req.method => GET / req.url => http://localhost:3000/user/redirectfailed
