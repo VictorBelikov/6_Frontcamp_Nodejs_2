@@ -3,6 +3,8 @@ const morgan = require('morgan');
 const path = require('path');
 const mongoose = require('mongoose');
 const session = require('express-session');
+const passport = require('passport');
+require('./api/config/passport-config');
 
 const queryLogger = require('./api/middleware/queryLogger');
 const globaErrHandler = require('./api/middleware/errorHandler');
@@ -35,6 +37,11 @@ app.use(express.json());
 // Session params
 app.use(session({ secret: 'SESSION_SECRET', resave: false, saveUninitialized: true }));
 
+// Passport middleware
+app.use(passport.initialize());
+app.use(passport.session());
+
+// Routes
 app.use('/news', newsRoutes);
 app.use('/user', usersRoutes);
 

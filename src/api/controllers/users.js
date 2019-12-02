@@ -1,20 +1,7 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
+const passport = require('passport');
 const User = require('../models/user');
-
-// post: '/'
-exports.getUser = (req, res) => {
-  User.find({ email: req.body.email })
-    .then((users) => {
-      if (users.length === 0) return res.status(401).json({ message: 'User not found in DB' });
-
-      bcrypt.compare(req.body.password, users[0].password, (err, result) => {
-        if (err) return res.status(500).json({ error: err });
-        return res.status(201).json({ user: result });
-      });
-    })
-    .catch((e) => res.status(500).json({ error: e }));
-};
 
 // post: '/signup'
 exports.createUser = (req, res) => {
@@ -39,6 +26,21 @@ exports.createUser = (req, res) => {
           .catch((e) => res.status(500).json({ error: e }));
       });
     });
+};
+
+
+// post: '/login'
+exports.loginUser = (req, res) => {
+  User.find({ email: req.body.email })
+    .then((users) => {
+      if (users.length === 0) return res.status(401).json({ message: 'User not found in DB' });
+
+      bcrypt.compare(req.body.password, users[0].password, (err, isMatch) => {
+        if (err) return res.status(500).json({ error: err });
+        return res.status(201).json({ user: isMatch });
+      });
+    })
+    .catch((e) => res.status(500).json({ error: e }));
 };
 
 // delete: '/userId'
