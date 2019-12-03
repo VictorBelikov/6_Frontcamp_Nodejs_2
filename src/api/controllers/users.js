@@ -64,6 +64,19 @@ exports.logout = (req, res) => {
   res.redirect('/news');
 };
 
+// get: '/auth/facebook'
+exports.authFacebook = (req, res, next) => {
+  passport.authenticate('facebook')(req, res, next);
+};
+
+// get: '/auth/facebook/callback'
+exports.authFacebookCallback = (req, res, next) => {
+  passport.authenticate('facebook', {
+    successRedirect: '/user/authSuccess',
+    failureRedirect: '/user/login',
+  })(req, res, next);
+};
+
 exports.authSuccess = (req, res) => {
   res.render('authSuccess', {
     pageTitle: 'Auth Success',

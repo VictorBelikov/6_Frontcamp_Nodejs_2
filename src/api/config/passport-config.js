@@ -1,6 +1,8 @@
 const bcrypt = require('bcryptjs');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
+const FacebookStrategy = require('passport-facebook').Strategy;
+const facebookConfig = require('./facebook-config');
 
 const User = require('../models/user');
 
@@ -33,3 +35,17 @@ passport.use(
       .catch((e) => console.log(e));
   }),
 );
+
+passport.use(new FacebookStrategy({
+  clientID: facebookConfig.clientID,
+  clientSecret: facebookConfig.clientSecret,
+  callbackURL: facebookConfig.callbackURL,
+}, (accessToken, refreshToken, profile, done) => {
+  try {
+    User.findOrCreate({ facebookId: profile.id }, (err, user) => {
+      return done(err, user);
+    });
+  } catch (e) {
+    done(e, false, e.message);
+  }
+}));
