@@ -12,7 +12,6 @@ passport.serializeUser((user, done) => {
   done(null, user.id);
 });
 
-// Find in session
 passport.deserializeUser((id, done) => {
   User.findById(id, (err, user) => {
     done(err, user);
@@ -45,6 +44,10 @@ passport.use(new FacebookStrategy({
   try {
     const existingUser = await User.findOne({ facebookId: profile.id });
 
+    // It doesn't matter user exists or we'll create a new one.
+    // If the exception hasn't been thrown, so, we're authenticated.
+    facebookConfig.isAuthenticated = true;
+
     if (existingUser) {
       return done(null, existingUser);
     }
@@ -64,6 +67,7 @@ passport.use(new FacebookStrategy({
     });
 
   } catch (e) {
+    facebookConfig.isAuthenticated = false; // Over insurance :).
     done(e, false, e.message);
   }
 }));

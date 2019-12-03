@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const passport = require('passport');
+
+const facebookConfig = require('../config/facebook-config');
 const User = require('../models/user');
 
 // post: '/signup'
@@ -61,6 +63,7 @@ exports.loginUserPost = (req, res, next) => {
 // get: '/logout'
 exports.logout = (req, res) => {
   req.logout();
+  facebookConfig.isAuthenticated = false;
   res.redirect('/news');
 };
 
