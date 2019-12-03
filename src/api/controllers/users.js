@@ -64,7 +64,11 @@ exports.logout = (req, res) => {
   res.redirect('/news');
 };
 
-// get: '/auth/facebook'
+/**
+ *  get: '/auth/facebook'
+ *
+ * I recommend to send this route from browser.
+ */
 exports.authFacebook = (req, res, next) => {
   passport.authenticate('facebook')(req, res, next);
 };

@@ -1,64 +1,186 @@
 
-6:40:59 2019-12-3: req.method => POST / req.url => http://localhost:3000/oauth/facebook
+19:56:45 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-6:41:43 2019-12-3: req.method => POST / req.url => http://localhost:3000/oauth/facebook
+19:56:58 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-6:42:04 2019-12-3: req.method => POST / req.url => http://localhost:3000/user/oauth/facebook
+19:59:57 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-6:43:53 2019-12-3: req.method => POST / req.url => http://localhost:3000/user/oauth/facebook
+20:01:00 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-6:45:11 2019-12-3: req.method => POST / req.url => http://localhost:3000/user/oauth/facebook
+20:01:24 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-6:48:45 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:01:37 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-6:49:19 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:01:45 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-6:49:21 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:02:21 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-6:49:37 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:04:41 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Ferror=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
 
-6:51:03 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:04:54 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Ferror=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
 
-6:53:30 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:04:54 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/login
 
-6:58:50 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:05:01 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-6:58:56 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/login
+20:05:18 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Ferror=access_denied&error_code=200&error_description=Permissions+error&error_reason=user_denied
 
-7:01:32 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:05:18 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/login
 
-7:01:50 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:05:39 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-7:01:59 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:05:45 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQCmQAUJ5SUKhWzHiC37jbg75T-35JWYjbJqKgEvBx3X6pDZpw6NJqB0SoBQU5s_1tRkoR_NbWTtSIi4xFQP3sb8hPmMTEsv90YQIx5vYi3PRxKAzmpCNy3BBaxnZb7T622jEsxxYxJDWJyBUGC4xxZeX_pqXuEbuE1gSLrnjYiTZpEVWtd60mI39X9bGrcK7LmQGelzMOBv2MIOdKs1t9dq2-cZrn1TKwLpexbCudOFEr_MhCKtlJW4y2hQwTJnvdkxKdZfQ7-mTvCKWRMFfBFIJo2GrWyomObYW4-XBaX8IP9U8WTvRDJhIe7yQyb0wxkNHjiuvnRg4Rlo4fNLJ3xg
 
-7:02:18 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:09:59 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-7:05:18 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:10:00 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQA0lIYa_LFttroki65OZYDS-1r7RW-PlPsNKK6_Zkl26yzMeqkub9YfonhnDNBA6mOQulZh9sbJ1k0QemTVGz43_Qtxgxiue1JtYT3OZX3K1gm7DCx8SR2mXo2EfOGiXALXZqZE1swP3VQAyiM7f4afJNU3Py453stU_L1mG5lwKmjnUnPpCmOuT-fES5CpfeeKqApIFV12Mpwh66oxaE62BEQMzMC9jcPNg8ZPLskfmoEzTFG04EJvNRicYDOMamqXQBxrj7ngN4A_TJPYygOS06hP0Jx3UdgeXQ_mS46LdZMMz1UxTaJCl_q0HH30oLMSR4j7e-TjFsN5JDAuxURQ
 
-7:16:47 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:10:08 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-7:22:32 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:10:08 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQD9M_-yB-JQ-y7TUTTFTBtvaEaNzfPgnpnyiT_S8wklvEo8WmWWPps38AqvF6i2w8cWK9RDLhLzGF2hph-76UegHc2sYbkbsWfE1WchzvVXaZqSh852nIlOb_WaOSsd6rpO-tef9PYeyePumrITl147DHCpOxJA2lh4Xq9khCfdKh_bwolAKtFgfOqn_7hDT5lznMwjmNSAxC_yqSp_rxbUigU4REi8RvXgK9t8nkiB5L0kAvLJfxLril4oUtO5W_MxgufIBgYM3kfJrnR0KcSON7zeKrvofcxTCNLW9I8DDiTelRrz-fbSXiZOgKW0gMFTO2wvCPLD0FbOQEuVuqYP
 
-7:22:56 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:10:13 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQD9Iikzgth7loZlIqwOlPbeXZbIYkk-HWKuGNvIYQWTENT39E9c6JUdc7e-_KAXufjOiXWe9epHgGiJ3pdxTVDk2JCHoUfUnRtZOD3VCSflIHxcsPZ0IDP-6rBX9GMyb3lGrJpGIm9LLE1dAQu2RnrZkkz2ilhNA3-HmcF-f5dWyiaGICYziCYvFMNFJAcAgdx2r6MItOxTelFShPaBhx4QrO11s96A8WYjv9H0ctdENRmF8GWPTkLHjr0PDF6BdxnGbRbW4wRFa1pC0IsDeazw3c0NBM43lrWmH2hQ4oFZEqf85GeYH969Kl0b_NY-5Pwuif-qYdwiFsH-wVDcYuOe
 
-7:23:49 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:10:18 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-7:24:06 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/login
+20:10:18 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQCLBcYUfbe2pYrA5F3K2s_XLeThQkWAeK6UFepRbU-kMECz-R2_up29drJVw91Kn_G8PX9NFouwnrlSnlx0-wVOYvn5De4ihBWP5cRhGGeQul1hy_Lm2Xtu4rxrVCTQXbcIsBgXNv1jSDmeCdMrJkxysjesFskc3FoCO_48A9q2mgxPm0tgUqmuHFzqPE9XrgTGYQ50p4gICGaVaTCI5rFqf1W_H7tG5VDSQ8p7Ir2ktMG0apmQO_mdhv6yfbCon0wL22iI76U1REj2_LGnKrL8mYC8vBAMScvYTWMzeTU388m7vtFDyRnWGWHt43DQlXRrdtevSFPdaAa3UDtsMqHM
 
-7:24:21 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/authSuccess
+20:10:51 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-7:24:51 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+20:10:51 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQAS32Fx7Qwcn1blStef7Ka9Nzr_9jHTXProyusUxxENRN4RsEWC37t_p4c5fa65dqlaoUXIO8ST82PYWgm5C_u5g7jb0G44o6VSFht-pe38G80evjXM2vj9ZKgcMbBpwWR619MDvmCDjfc-gDWGEz-SaHeHwnCZp8x23BFLaCtd64pZNkOAC1k6e_y2e8o6CTNMPRbl6xIgvHPUqhSNhhevOncjRvtL0t1f7IqxkhflpLnlBL4Ia-CIiHxK1UzuDStz2EDR_n7SCeM7P2luOA0fZ0tkkD8ZaVVpn14FgFj2NrECT-_ZvzRuSX-xQKHh7gd_fwEnoESZkWOnEw31a44R
 
-14:57:41 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+20:12:06 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-14:57:56 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+20:12:26 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-14:58:08 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+20:12:26 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQCeIeWF_BAnivzL20O14fhwkG9Zw2TZ2hrHNtWsOsIupcv9HcEi2o_ffaxinTZBqaxompqQOUG6cE4UN2CopR8QQelJ7UdL3N7cSPchkDy3DUoqhDViqIKXe-Eppcm2yvSJyduq14fuJl0jEM030uEhLU9nRTCur0cHLxHfVYQSqWanLmE4i-wkOUSDd8DBwXWF_OTEyqN1vks0E3Vr5UeLPmn5jSM-_0RWwYkw3pPDtWTa-9Lv5hhxpSI-riqLPTDqvuQCMrNYmVNe17P4CHEF6MmsgzARYrLpNQnSDfzJMHqQJs6-fzL0Y_GrIKEFudOmyg73E-9FAzDQpeO6DAXE
 
-14:59:32 2019-12-3: req.method => GET / req.url => http://localhost:3000/auth/facebook
+20:13:10 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
 
-14:59:32 2019-12-3: req.method => GET / req.url => http://localhost:3000/favicon.ico
+20:13:10 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQAuvM58mtdLCMcg1USt6JBmCpcZpZhbtBVV9blS5yp_vZwLEyrBHfdRRDcGWWtjVESk0eZ2-ZXhMU8PeQIQC1p02Xo3uvda6XMr_opyjlV3ThSpL8hHYeAcoM4jNPdUYBjJchKfL9Av9TFFSc9HDpWmBGEDGTD_PVDlvyh7CzItALoyxqvKEVSHxvc7oMqdHdRBx9hzvTynr_0VYWO68H3WyTOC5WXYYtibKGqhktxPM16j3-6cmtdRqf5W1rmhKYGbRNBRVv-n5LibiJAjEQSRn51pqVynVSH0SS0yU6hpiUfNF-BEs903llvAZaHmZse7dlAU4aoUIS-H0SNgwHhy
 
-14:59:44 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+20:15:51 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/logout
 
-15:14:49 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+20:15:51 2019-12-3: req.method => GET / req.url => http://localhost:3000/news
+
+20:16:44 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:16:45 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQB8frC3lCDRacJOwmoaJT_c_m5NAylZxaSEsO0AO95iRnfOTqeNRAzGJV8QMPU7uOS5cJ6feIStUW0p47g0K421WtCb68e6EmqvXzPp-4hANJRXWuAyW32-IctrSPpxKFYvxhfPjUBKvAPqQn328TuWuM1LU20Wq67qmKwwQO4JX-uZFr1NJxtxVQ02o_I2OLb6cVVDTi0TSMZr5d89BZ-odl7ix6fc_iwjQyBSla4NLwqPV-c1Jxw6twh92-uFG6OKrx_OK7fsA_pWAFqyYeALrJexPjTO1WlEh-h8NwDc92k9-a8lmN-EJUDmOrh2jYosjKqdBkLyiICAjFytFJr1
+
+20:23:06 2019-12-3: req.method => DELETE / req.url => http://localhost:3000/news/5de5bf85a2ebdc29f0b2605c
+
+20:23:06 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:24:17 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:24:31 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:24:31 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQBAtcQnDkoe0HRkgyt1W2XIHTpexhcMfCoA-CE5q8RuSgR8OJ2OOhkJFIKsA1t-38KHkbrbcqV5wN27q-GKTuZKRopngCJ3hicPua8eiA0ERXC9FT6Dxs7P53QdF2IhQmCM85psPYtTc2ovypb03Qa7LWrx4OyChwwFntcFk9ovaj4cLCUpCiRnP2WN51veMwcLerap4VA6MpDNAUU7epQiZIRwQR_Lxq98mTFy-9l9w_XmWawlzMULUFl74tt-c1Go8yw8NjYaBqHuXsiQHTNMqlMTymQ8107J7RtHV6DH4SZclPB_CvI7hTLe7oSbJKnkriMQB9Hhqwhp-Ou-CjBg
+
+20:28:16 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:28:39 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQDDj7U27LGBknFTE92rVy7kNpVIxZoSKU5dfcTo2N9ytwnCMK0IUBPWLqbSCgqRs1bUeRJ9UFY2suo3G9KXAKBpQGfWYnS9pLkHl-mR-iNj3VQzIe3rI4ZibXudl8fLOSkO238sjsTOrM2fKZDjbwwrsZXqOr-CgrRGnBc6sZuKfSE3-naxf7pJDFSkMWC7MJCCx51Paa4XBumZFfXma5jJtIEBF5e075KAtnlkxuCjIT3cKE7AWzXnJeKwNU5V6dSDW5fLaMkIhtQUcgWinzcAvxTCVaEdDMKJPmTRTysK3uf0h60N4Ti3fq6QFkPtsLjlUZbwUhEWm2NTeaKLfAn7
+
+20:32:13 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:32:24 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQB0IuDrSPw5dEAQbcZQ5V9CKBZlPozBIDljs-ZB_s5jaP7IwqvLHPXfj2UTWSPtS-JRj4pWO4IiNJ_bKt8FrEaU9q6B3HNGtQdmyDSAdHZf0MV20GrtweBcLZfOoNIT-VcJrmUQOGlC1kxQNQem-_nfQTU8UkD1UxOJJMvgYHS0Lhm-_0oEKP_dyvONoU18ixbF7S-DWKWTPpsD0q--Zy1DYqEhbRYaKSKhPR2VdavJURBzvU2rVk7g1taGI65zoMawPewivDBDHavbdWHDdn8CzBpeftn4Rf-wCEUZE6Tr0TmFU3oZnvCyhwq5Vy-LZKN_-Fut8_2FRGQPKbfXrgRX
+
+20:32:24 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/login
+
+20:34:39 2019-12-3: req.method => DELETE / req.url => http://localhost:3000/news/5de5bf85a2ebdc29f0b2605c
+
+20:34:39 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:34:52 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:34:53 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQAGVKJaJBbuxaHWTVuYo0qmB8zhTGaE2qfoH7u2Lw4w5rH56jyFKXNWXLD6T6Z9aHVSToQy6-6OdcejCznunWN44HT8Cz5SD-ftywv3KMqmAQYGYq52dX-xxhEqHzN87eV548vZkZlbDoTwDG3x_gP8ZuZ5qnZH_eUBK08Vm12qcsI5IWYHOxjbeO4QuzLcmk92ufIABu7oiPVHnvsV0QIPelqUWeIXXMbFPNQJNTTHCHLzw97QAi5_oa8LWrCedXouVagk0FzB19fZKLUTbzuF4AaFpHjO3kYEr7khYGUcBmq5AB8V6q9rXjbq66xsQo2fGIuzFKX1GNzG_QbOjwVt
+
+20:34:53 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/login
+
+20:36:23 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:36:24 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQBNSNMn2BONgx9UyIiAzAMdYGzZhMkR07yjnsdVy9pq0IppY4Xwho96PuxA3_Ct-YS7kUe7pMivcLp3GO8Ot7WgjYstfupt_xKIFqFbMnDVV-uC2jamMaceZooAkXpbh9FTDCMMe-Skex0nreI3-4Hdrh9twvYJL4BF23Pdh5SwXmx4cHb5p2s9qAb1X55HIHwUqSwVzNJnY6-Z8EWY8gZYuQxfsUswHY4cessMKzB_BEUhBt4J7Q9HJINkmGEWLr5ISg0r-0rakqi53yyzLS4QRM2NFTBaHO2KXvAFJPiSjMdvRWBMPAnMLhKbegwjzl4UNie6PmCjUyjAJegKRAU_
+
+20:37:42 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQBNSNMn2BONgx9UyIiAzAMdYGzZhMkR07yjnsdVy9pq0IppY4Xwho96PuxA3_Ct-YS7kUe7pMivcLp3GO8Ot7WgjYstfupt_xKIFqFbMnDVV-uC2jamMaceZooAkXpbh9FTDCMMe-Skex0nreI3-4Hdrh9twvYJL4BF23Pdh5SwXmx4cHb5p2s9qAb1X55HIHwUqSwVzNJnY6-Z8EWY8gZYuQxfsUswHY4cessMKzB_BEUhBt4J7Q9HJINkmGEWLr5ISg0r-0rakqi53yyzLS4QRM2NFTBaHO2KXvAFJPiSjMdvRWBMPAnMLhKbegwjzl4UNie6PmCjUyjAJegKRAU_
+
+20:37:59 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:38:00 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQDtX7Xe3OIREDEdI4391uG_RbqSjtFkA9jyvwfXhrzCIQv4GC4AlUQyQwAyBpJtzGV1z-zkTBZp5HsEV3bs1moXmIvPj8_lccR3RdcKtThACUe6yyeK5mWZZXoWiCTjmcCY--ViepUs1tlASJUGUhRWC1LKxtSE8gviVPc0QnPa8fVZU4_vybZWCtPIA4ppqrusLlgLZXTfGb86Zyczt6mzLBFfrunRV0a3cnYgdB_bEjSt2Ur4DAFk445p6wdttz0Mk70rOv9Zf7yATK7HFtGBOfRxM9iaTSIsqoKjy3K-RWzZVsExX3waVsWK0zpGohLsLMSlOhKDyy2V_Cia3xqK
+
+20:38:45 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQDtX7Xe3OIREDEdI4391uG_RbqSjtFkA9jyvwfXhrzCIQv4GC4AlUQyQwAyBpJtzGV1z-zkTBZp5HsEV3bs1moXmIvPj8_lccR3RdcKtThACUe6yyeK5mWZZXoWiCTjmcCY--ViepUs1tlASJUGUhRWC1LKxtSE8gviVPc0QnPa8fVZU4_vybZWCtPIA4ppqrusLlgLZXTfGb86Zyczt6mzLBFfrunRV0a3cnYgdB_bEjSt2Ur4DAFk445p6wdttz0Mk70rOv9Zf7yATK7HFtGBOfRxM9iaTSIsqoKjy3K-RWzZVsExX3waVsWK0zpGohLsLMSlOhKDyy2V_Cia3xqK
+
+20:39:15 2019-12-3: req.method => DELETE / req.url => http://localhost:3000/news/5de5bf85a2ebdc29f0b2605c
+
+20:39:15 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:43:50 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:43:51 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQCZw69RX9XqyFp6km6z7QffkxurVp5_ZEuv8KXUC4Arq5vS-11O4pHvIj_B5szkzS3xw-diaw0x4u46ZhW22JXT0AW9CXhs44nQtkJdSyncAEvX6FXc2SmG57Z63mlwICxYFuN855DoxWrNSnWgAwwX-f3mAOVPA31LiXzpLO21HWJlRwG5Iikmg9rcLWhUeKbvAySqtU5OTDkZDtojZ0GmmNU5nSqt7oh09Tt0n0_Mnd6WVsbu6seaB-FCAnh4Tp-39UonYB7E5xq-RiMt7QnFKxUhjwhjbNak60Tiq9XJByLYJvsdGoNKPRNgABt6BroE0hDz6EIbhtOwqXnJNk11
+
+20:43:51 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/login
+
+20:46:13 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:46:13 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQByGK0CV38JOVQc05Vuczr3SXrIC_yYKneYv99vt5huKdWlpR59DlrxWc1xBbBCmxufWTO50KIwxkk50WnpdDU0RWn8TcP7F-8mY4yA4XDhTJ2CFmx5uVHvwqcf5itfjgO_RtFC3no_P42pe_qNIhIAU2aQOfmCj7b_9Dcy2IleOBDYaAkW2F3aPVaefa9J5rZw4ay03Glna6MrZfaI4yxi2dXABKnlTMRWk6LdPcKVRKiNkmQRQ2OR_EOkiwHDQjtBSIH9B96hFWIXhDt8QemqhB2y2jNpSofChtXRmi3dkqlGO2zwtrNgjYYOQIrDY_1Cp7Iz1dkmGQu4PkBjhkvs
+
+20:46:42 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:46:42 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQCaL53Q4m0RF71iON5nRPJixD-ko3lDPNLOrSbaQLlMak5tRyrzg8hL4SFM4LKDKeE79-mNN54fp1u5bGYWPjaVrBYz_723e-yDqi8cVS2VCcS-CDhfTW4TpFdCA6y8TkI8mNIQdVRlZ_lKQfKGqC3B1j186myY8KVP5PT-urqpXG11WJhfWnw3voq7yTP0FCjAuZSl8D_3hiByqWp7_vKrrkScqn4Q1LZolBFCYL01JonNJeJ8egaJKlnoXgQoQYEHiAwe87wcc97q0wVR4DslaFCSNuPw0uUBbHV-9lMOl7pKPM5ajzYOioxTnrnjGDKaVbYe8ZbRby_4Ob24i8xI
+
+20:46:42 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/login
+
+20:47:40 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:47:54 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQDTjRQRFd6BzKhP0PmZss5_uLdJDdp5SowQ87sBhg-lqW6qgylDN93wg6KJ9G5squOlxB8HWCed0itgTwkd8LbJGVPsjmFk_8SrYuZ-5dyueEN9YgSAAjCCeEB-sTM-44lUkYkD0IUOXafGcf3L4rLKoVw-7sGzHWHHscFv5WhUQqOVgEpcpRMpoFvOCz2RQgQZ2FQOgFlloegC8EfqTpJq0hzUQt91ru-dwlgXWAzpFuxW4uz48yXPF9vaJ7D0n3dzRL5xG3rGFtd7dqy3ooJAzvR-FvbIv3Zd9HsWOD4hAP8_Tza_8Dz-Q5i4oeZYW7xSiehp9HIVOLE0KpRWagFj
+
+20:47:55 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/login
+
+20:56:41 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+20:56:42 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQCw7KIq08qJShJNnWk7RExIZAev_twOCNL2iuMaVevLxU9lC2LcjdqLmatOh_AWAJ17el8Rro6iz7XqaNKQyPUokMfhpI9BHqe_MP1PkTlK2GfcXGm4ghdISJoXkJ7P1GnBh4k4ho6m-J9oPjbh-CrsiUxDBhr7qkcotKTipKFvas4PjVkbpWhNRvj6WmthsrDe-kALsh7VMKcV2HvaxPKPtZM2krGP_giv3KK1qIAsfJguxBCq5xL9y3eBkE74Wza1dAuM0NYsSlkX5ZDg5gKJvGywcAIU_dWAOrZnqEyGbFslbP8ClsNHrl2hExW5HK2NowKLt5tyqRSlmu69U4_K
+
+21:39:37 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+21:39:50 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+21:39:50 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQCpIWbOVQtChhNM1UTAs1OZZq1-JT9BpzVWupzWG6AUb51KTEMADwIzadEB4ArcU3BpyvK5kAf5lVdoR8Oa4x086mGCsaSr1T-mxc5FTA_5xmjiodM06yBjIRV4l6a6LWc8MMrmdtzmQXJsSp2K4UUBOQwSmQcNoZa1EqbF6d-Fq4xB18CPhMQw0ByHct0nNm0dV-AlXeRmgfRJbJm_Ku1fsXv39Q2LatRkM9uu0NsEnFVjvorI-BA7e757Z16SIx8_pf_0oNeFfPHrti8y1vqDa6g5tFqg37DdwvKDddFYMG26dgbN-AAJkqLMyQBcD7-Zm_TxHhoSNIc-W8tnaNiO
+
+21:40:13 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQCpIWbOVQtChhNM1UTAs1OZZq1-JT9BpzVWupzWG6AUb51KTEMADwIzadEB4ArcU3BpyvK5kAf5lVdoR8Oa4x086mGCsaSr1T-mxc5FTA_5xmjiodM06yBjIRV4l6a6LWc8MMrmdtzmQXJsSp2K4UUBOQwSmQcNoZa1EqbF6d-Fq4xB18CPhMQw0ByHct0nNm0dV-AlXeRmgfRJbJm_Ku1fsXv39Q2LatRkM9uu0NsEnFVjvorI-BA7e757Z16SIx8_pf_0oNeFfPHrti8y1vqDa6g5tFqg37DdwvKDddFYMG26dgbN-AAJkqLMyQBcD7-Zm_TxHhoSNIc-W8tnaNiO
+
+21:40:31 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+21:40:31 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQD5RBZNZqKfJrOSKz2OKlysqUywzFV3--eOrdqUWGZ_GmdtQyKppZYKJlWRqEcjUI0e63sKCwKWTwfpNR4i-6w7WaJ6m-0oDg3Av--DwIM1biLP7Rb6wRs2Ea-a5Q57alDsHVPFk7Le8LhVL4vV6fPX03HaZnxhVnspNMmXEWsRL_b4Rz1v3JSyp3sawbFBugf8W5X9MWkqGaVy717RZXwq-vn34lhVsF1nG3Wprtsxdk6ieaCNYNKvm4t8GQR4FN_-nKf_spRiuy6fcNG1qnLbm7K8HhtSBDaocM0kEkxQqmwH0XsJXWuYIZZlW9bcaFz2X3_I7N9Cb_dg6GiwR7yy
+
+21:41:54 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+21:41:54 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQCsq6c7eAJHziocjtKkJDwGlCgM23_qWgIrEAXH7nUZCHcVIRyuCqqRI1dtQ2zOdhb5gLbrpMBGvaVEHq5N9zc0BJdqfiaUYIHQxBjMZ0DqCOEBRgZKHdi5AmOExcAk6N-3YLtz0CN6kg6Mc3gvjuVjW6sSLeg3GUhJXbyNJBTyV24qaRX6BjzlQFIw4dD-nOyjLOuta3l_O7Gmn6Na9EudungP5MyeLvXx79zxAn7HV08U_WuwPhjxtObw8nFkwZX_rzO19uih5VWuZnqMtee7AdobplU-tgTn1mXo2-xH672AFg55VPYeYa30WizRA089fswdxO-SDKxMCwuFiZ_9
+
+21:41:55 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/authSuccess
+
+21:47:30 2019-12-3: req.method => DELETE / req.url => http://localhost:3000/news/5de5bf85a2ebdc29f0b2605c
+
+21:47:30 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+21:49:06 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+21:49:27 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQAghNHmNghF6rgxZlHmA_kl5aq5fBhR3NrEOtcyLd5UCJeXvDxSBYJxdYSPOKGUrVaHZqnUDXjuEFRvSEoH0BFhezIL-ll6m-1uP7jRhxyd004lCVpjVA8r57D2C-J-lOUPvhDohkTXIAfww8b2ET-40y_RKLjPP5i8hkwLifsNzX9NWHLs4YT4kmf25eniJYFzlVxVBahSIH4kzfQKSVZS2OFQbsDuFkMrEWvnfnKI1W_qDc8AHl6gU7Oej7DxeT1MDtM74rxqBtCCC4IpgSTkz_ZIYCwPew0b496QuzB3fn36p-wN5UZyumPqV9L1YBi-n4iRUZvw5C5hTxgy6eVQ
+
+21:49:37 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/authSuccess
+
+21:50:27 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/oauth/facebook
+
+21:50:43 2019-12-3: req.method => DELETE / req.url => http://localhost:3000/news/5de5bf85a2ebdc29f0b2605c
+
+21:50:43 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+21:57:22 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+21:57:34 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQA-tD6Y5LvNtzAVs66YW4YQIXUlUA3SvRwqxuXjAYT7OT1xaV3otpr6129T0fF7sxAp5cYg4c7w_Jsl54r3LhUCSywIUcrldC60catQxiQSFUhlUCBCizjajDp5TTw0lQZIYHYwOj9QwJXxEbrZl_h1CYu3DYpsMUjwKPJQH8bcCa_4IZ_aM-5CyETjAQdrAQ2MdSeZNdv6Ynp3R3i8rw-Sl-dM7EdaSbAeJW4omKMVdeTlwrBKS7T7ayuIx_ioS9CWxJCJ5fDsYdAlnMLHDaacOC74C42HKPFObCp-dI3rbA9uqFzks0yF7T3i8znnvS48FpF9CFvWuX58cINc4MCb
+
+21:57:35 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/authSuccess
+
+22:02:23 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook
+
+22:02:35 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/auth/facebook/callback%3Fcode=AQC-UbXR21G9xw1jb1vpHyvus1myJ6O2nP-1kqtVtnmZwq18biTNA8nB8v043pKcOexEWDrKTgQl5yG99_ORjDU8DS87MnkM4EzeW3J2GqM5btmZliU8UPj5sN6mPaBOozU58zZ4UDc0vP9o-xefXsFOqMOkApsjlf1XJ9OK2PzGZKon31_bDV-Uo9tbIVau2y7zRxNw3K3_4MQkE0w_8NDwrG-8_QAr7McF3zY1xwCe3RZM_6Ss-zgDt5958mzT0DxvTn7HgQF_9RApDGKBY3-L1FypfmDMvYcjynfyElIRWNz9OdEyVNQ4yVGPkgJ1y0IkIFrhkm8sTXyDfbdxHj5_
+
+22:02:36 2019-12-3: req.method => GET / req.url => http://localhost:3000/user/authSuccess

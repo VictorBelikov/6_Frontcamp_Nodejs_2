@@ -1,3 +1,4 @@
+const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
@@ -40,11 +41,28 @@ passport.use(new FacebookStrategy({
   clientID: facebookConfig.clientID,
   clientSecret: facebookConfig.clientSecret,
   callbackURL: facebookConfig.callbackURL,
-}, (accessToken, refreshToken, profile, done) => {
+}, async (accessToken, refreshToken, profile, done) => {
   try {
-    User.findOrCreate({ facebookId: profile.id }, (err, user) => {
-      return done(err, user);
+    const existingUser = await User.findOne({ facebookId: profile.id });
+
+    if (existingUser) {
+      return done(null, existingUser);
+    }
+
+    // Of course, we need to request a password from the user. '123' - it's just for example.
+    bcrypt.hash('123', 10, async (err, hash) => {
+      const newUser = new User({
+        _id: new mongoose.Types.ObjectId(),
+        facebookId: profile.id,
+        name: 'Facebook User 1',
+        email: 'example2@yandex.ru',
+        password: hash,
+      });
+
+      await newUser.save();
+      done(null, newUser);
     });
+
   } catch (e) {
     done(e, false, e.message);
   }
